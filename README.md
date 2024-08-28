@@ -19,3 +19,9 @@ A revision of the Financial Incentives paper
   ```
 
   This creates a new file in `literature_search/output` called `search_results.csv`.
+
+### The artifacts folder
+
+- In the `literature_search/artifacts` folder, each entry (folder) represents a single search. For that search, the folder should contain the log of the search, the search results (a .csv file) and potentially metadata about that search.
+- This folder should be kept in the repository for reliable time/source tracing of information.
+- So as not to clutter, the runtime output is stored in the `output` folder, so store only notable searches in the artifacts folder.

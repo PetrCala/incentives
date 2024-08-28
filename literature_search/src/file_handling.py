@@ -21,10 +21,10 @@ def load_src_file() -> pd.DataFrame:
         raise e
 
 
-def save_output(out_df: pd.DataFrame):
+def save_output(out_df: pd.DataFrame, file_suffix: str = None) -> None:
     """Save the output data frame to a CSV file."""
-    file_time_metadata = time.strftime("%Y%m%d-%H%M%S")
-    full_path = f"{PATHS.OUTPUT_FILE}_{file_time_metadata}.csv"
+    file_suffix = file_suffix or time.strftime("%Y%m%d-%H%M%S")
+    full_path = f"{PATHS.OUTPUT_FILE}_{file_suffix}.csv"
     logger.debug(f"Saving output file to {full_path}")
     if not os.path.exists(PATHS.OUTPUT_DIR):
         os.makedirs(PATHS.OUTPUT_DIR)

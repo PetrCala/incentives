@@ -18,7 +18,8 @@ class PATHS(StrEnum):
     PDF_DOWNLOADS_DIR = os.path.join(OUTPUT_DIR, PDF_DOWNLOADS_FOLDER)
 
     SRC_FILE = os.path.join(RUN_DIR, "LoS_incentives_revision_micro.xlsx")
-    OUTPUT_FILE = os.path.join(RUN_DIR, OUTPUT_FOLDER, "search.csv")
+    OUTPUT_FILE = os.path.join(OUTPUT_DIR, "search.csv")
+    METADATA_FILE = os.path.join(OUTPUT_DIR, "metadata.txt")
 
     LIT_SEARCH_LOG_FILE = os.path.join(OUTPUT_DIR, "literature_search.log")
 

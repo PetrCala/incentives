@@ -1,9 +1,11 @@
 import os
+import time
 from loguru import logger
 import pandas as pd
 from src import PATHS, STATIC, config
 from src.file_handling import load_src_file, save_output
 from src.scholar import search_google_scholar
+from src.utils import save_metadata
 
 
 def main():
@@ -28,7 +30,9 @@ def main():
         idx += search_results.shape[0]
 
 
-    save_output(merged_results)
+    file_suffix= time.strftime("%Y%m%d-%H%M%S")
+    save_output(merged_results, file_suffix=file_suffix)
+    save_metadata(merged_results, file_suffix=file_suffix)
 
     logger.success("Literature search completed")
 
