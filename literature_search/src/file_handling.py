@@ -1,3 +1,4 @@
+import time
 import os
 from loguru import logger
 import pandas as pd
@@ -22,7 +23,9 @@ def load_src_file() -> pd.DataFrame:
 
 def save_output(out_df: pd.DataFrame):
     """Save the output data frame to a CSV file."""
-    logger.debug(f"Saving output file to {PATHS.OUTPUT_FILE}")
+    file_time_metadata = time.strftime("%Y%m%d-%H%M%S")
+    full_path = f"{PATHS.OUTPUT_FILE}_{file_time_metadata}.csv"
+    logger.debug(f"Saving output file to {full_path}")
     if not os.path.exists(PATHS.OUTPUT_DIR):
         os.makedirs(PATHS.OUTPUT_DIR)
-    out_df.to_csv(PATHS.OUTPUT_FILE, index=False)
+    out_df.to_csv(full_path, index=False)

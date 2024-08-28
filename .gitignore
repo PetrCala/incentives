@@ -14,3 +14,7 @@ __pycache__/
 
 # Excel cache
 **/~$*.xlsx
+
+# Log files
+*.log
+!literature_search/logs/*.log
