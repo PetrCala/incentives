@@ -7,6 +7,7 @@ from src.scholar import search_google_scholar
 
 
 def main():
+    logger.add(PATHS.LIT_SEARCH_LOG_FILE, rotation="10 MB", backtrace=True, diagnose=True)
     logger.info("Initializing the literature search")
 
     df = load_src_file()

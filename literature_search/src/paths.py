@@ -20,6 +20,8 @@ class PATHS(StrEnum):
     SRC_FILE = os.path.join(RUN_DIR, "LoS_incentives_revision_micro.xlsx")
     OUTPUT_FILE = os.path.join(RUN_DIR, OUTPUT_FOLDER, "search.csv")
 
+    LIT_SEARCH_LOG_FILE = os.path.join(OUTPUT_DIR, "literature_search.log")
+
     def __repr__(self):
         return self.value
 

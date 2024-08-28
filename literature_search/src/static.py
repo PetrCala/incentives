@@ -6,3 +6,4 @@ class STATIC(TypedDict):
 
     JOURNALS_SHEET = "Journals"
     QUERY = r'("financial rewards" OR “money” OR “financial incentives” OR "monetary incentives") AND  (“motivation” OR “performance”) effect affect experiment intrinsic extrinsic reward'
+    LIT_SEARCH_LOG_FILE = "literature_search.log"
