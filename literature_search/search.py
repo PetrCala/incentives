@@ -7,6 +7,9 @@ from src.file_handling import load_src_file, save_output
 from src.scholar import search_google_scholar
 from src.utils import save_metadata
 
+# Clear the literature search log file upon each script execution
+with open(PATHS.LIT_SEARCH_LOG_FILE, 'w'):
+    pass
 
 def main():
     logger.add(PATHS.LIT_SEARCH_LOG_FILE, rotation="10 MB", backtrace=True, diagnose=True)
