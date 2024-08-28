@@ -17,4 +17,4 @@ __pycache__/
 
 # Log files
 *.log
-!literature_search/logs/*.log
+!literature_search/artifacts/**/*.log
