@@ -2,7 +2,7 @@ from loguru import logger
 
 
 def main():
-    l
+    logger.info("Initializing literature search")
     pass
 
 

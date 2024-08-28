@@ -30,7 +30,3 @@ help)
   exit 1
   ;;
 esac
-if [ $# -eq 0 ]; then
-  show_help
-  exit 1
-fi
