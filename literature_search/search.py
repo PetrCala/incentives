@@ -5,22 +5,32 @@ from src import PATHS, STATIC
 from src.file_handling import load_src_file, save_output
 from src.scholar import search_google_scholar
 
+# Options
+SAVE_RESULTS_TO_PDF = True
+
 
 def main():
     logger.info("Initializing the literature search")
 
     df = load_src_file()
-    out_df = pd.DataFrame()
+    merged_results = pd.DataFrame()
+    idx = 0
 
     logger.info("Starting literature search")
 
     for i, study in df.iterrows():
-        study_name = study["Journal"]
-        logger.info(f"Processing journal {study_name}")
-        result = search_google_scholar(journal_name=study_name, query=STATIC.QUERY)
-        out_df = out_df.append(result)
+        logger.info(f"Processing journal {study["Journal"]}")
+        search_results: pd.DataFrame = search_google_scholar(
+          journal_name=study["Search Keyword"], 
+          query=STATIC.QUERY,
+          idx = idx,
+          save_results_to_pdf=SAVE_RESULTS_TO_PDF
+        )
+        merged_results = pd.concat([merged_results, search_results], ignore_index=True)
+        idx += search_results.shape[0]
 
-    save_output(out_df)
+
+    save_output(merged_results)
 
     logger.success("Literature search completed")
 
