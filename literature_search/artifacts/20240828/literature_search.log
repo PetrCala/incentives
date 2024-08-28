@@ -1,0 +1,303 @@
+2024-08-28 19:04:42.701 | INFO     | __main__:main:11 - Initializing the literature search
+2024-08-28 19:04:42.701 | DEBUG    | src.file_handling:load_src_file:10 - Loading source file
+2024-08-28 19:04:42.766 | INFO     | __main__:main:17 - Starting literature search
+2024-08-28 19:04:42.767 | INFO     | __main__:main:20 - Processing journal Econometrica, Econometric Society
+2024-08-28 19:04:45.204 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives to exercise
+2024-08-28 19:04:45.716 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Gift exchange in the field
+2024-08-28 19:04:46.109 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Ideology and performance in public organizations
+2024-08-28 19:04:46.414 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The economics of labor coercion
+2024-08-28 19:04:47.376 | INFO     | src.scholar:search_google_scholar:133 - Found 4 results for journal Econometrica
+2024-08-28 19:04:47.378 | INFO     | __main__:main:20 - Processing journal American Economic Review, American Economic Association
+2024-08-28 19:04:49.148 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Doing good or doing well? Image motivation and monetary incentives in behaving prosocially
+2024-08-28 19:04:50.769 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Information and quality when motivation is intrinsic: Evidence from surgeon report cards
+2024-08-28 19:04:51.884 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Trust as a signal of a social norm and the hidden costs of incentive schemes
+2024-08-28 19:04:52.576 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives and prosocial behavior
+2024-08-28 19:04:53.382 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for American Economic Association
+2024-08-28 19:04:55.757 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Happiness and time preference: The effect of positive affect in a random-assignment experiment
+2024-08-28 19:04:59.333 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The hidden costs of control
+2024-08-28 19:05:00.004 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives work: Getting teachers to come to school
+2024-08-28 19:05:01.569 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Recruitment, effort, and retention effects of performance contracts for civil servants: Experimental evidence from Rwandan primary schools
+2024-08-28 19:05:02.120 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Performance pay and productivity
+2024-08-28 19:05:15.664 | INFO     | __main__:main:11 - Initializing the literature search
+2024-08-28 19:05:15.665 | DEBUG    | src.file_handling:load_src_file:10 - Loading source file
+2024-08-28 19:05:15.752 | INFO     | __main__:main:17 - Starting literature search
+2024-08-28 19:05:15.753 | INFO     | __main__:main:20 - Processing journal Econometrica, Econometric Society
+2024-08-28 19:05:17.971 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives to exercise
+2024-08-28 19:05:18.580 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Gift exchange in the field
+2024-08-28 19:05:19.012 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Ideology and performance in public organizations
+2024-08-28 19:05:19.313 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The economics of labor coercion
+2024-08-28 19:05:20.018 | INFO     | src.scholar:search_google_scholar:133 - Found 4 results for journal Econometrica
+2024-08-28 19:05:20.020 | INFO     | __main__:main:20 - Processing journal American Economic Review, American Economic Association
+2024-08-28 19:05:21.652 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Doing good or doing well? Image motivation and monetary incentives in behaving prosocially
+2024-08-28 19:05:25.003 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Information and quality when motivation is intrinsic: Evidence from surgeon report cards
+2024-08-28 19:05:25.996 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Trust as a signal of a social norm and the hidden costs of incentive schemes
+2024-08-28 19:05:26.556 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives and prosocial behavior
+2024-08-28 19:05:27.247 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for American Economic Association
+2024-08-28 19:05:29.140 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Happiness and time preference: The effect of positive affect in a random-assignment experiment
+2024-08-28 19:05:31.171 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The hidden costs of control
+2024-08-28 19:05:31.723 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives work: Getting teachers to come to school
+2024-08-28 19:05:33.142 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Recruitment, effort, and retention effects of performance contracts for civil servants: Experimental evidence from Rwandan primary schools
+2024-08-28 19:05:33.684 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Performance pay and productivity
+2024-08-28 19:05:36.572 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The effects of high stakes high school achievement awards: Evidence from a randomized trial
+2024-08-28 19:05:37.801 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Is a donor in hand better than two in the bush? Evidence from a natural field experiment
+2024-08-28 19:05:38.759 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Screening, competition, and job design: Economic origins of good jobs
+2024-08-28 19:05:39.453 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Alcohol and self-control: A field experiment in India
+2024-08-28 19:05:40.951 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Preferences for truthfulness: Heterogeneity among and within individuals
+2024-08-28 19:05:42.046 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for American Economic Association
+2024-08-28 19:05:45.379 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for A/b contracts
+2024-08-28 19:05:47.201 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Persistent overconfidence and biased memory: Evidence from managers
+2024-08-28 19:05:48.667 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Law and norms: Empirical evidence
+2024-08-28 19:05:52.618 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Anatomy of a contract change
+2024-08-28 19:05:54.802 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Applicant screening and performance-related outcomes
+2024-08-28 19:05:55.547 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Does corruption affect cooperation? A laboratory experiment
+2024-08-28 19:05:56.411 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Applications of option-pricing theory: twenty-five years later
+2024-08-28 19:06:07.367 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Pride and prejudice: The human side of incentive theory
+2024-08-28 19:06:07.930 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Information and the Change in the Paradigm in Economics
+2024-08-28 19:06:12.565 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The rise of noncommunicable diseases in Latin America and the Caribbean: challenges for public health policies
+2024-08-28 19:06:13.584 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The productivity of Colombian public schools and its determinants from a value-added perspective, 2014–2019
+2024-08-28 19:06:15.462 | INFO     | src.scholar:search_google_scholar:133 - Found 28 results for journal American Economic Review
+2024-08-28 19:06:15.465 | INFO     | __main__:main:20 - Processing journal The Quarterly Journal of Economics, Oxford University Press
+2024-08-28 19:06:18.173 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for RANDOMIZING RELIGION: THE IMPACT OF PROTESTANT EVANGELISM ON ECONOMIC OUTCOMES GHARAD BRYAN JAMES J. CHOI
+2024-08-28 19:06:20.867 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for BUILDING RESILIENT HEALTH SYSTEMS: EXPERIMENTAL EVIDENCE FROM SIERRA LEONE AND THE 2014 EBOLA OUTBREAK DARIN CHRISTENSEN
+2024-08-28 19:06:21.775 | INFO     | src.scholar:search_google_scholar:133 - Found 2 results for journal The Quarterly Journal of Economics
+2024-08-28 19:06:21.777 | INFO     | __main__:main:20 - Processing journal Journal of Political Economy, University of Chicago Press
+2024-08-28 19:06:23.657 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Moral incentives in credit card debt repayment: Evidence from a field experiment
+2024-08-28 19:06:24.733 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Confronting objections to performance pay: the impact of individual and gain‐sharing incentives on job satisfaction
+2024-08-28 19:06:25.730 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Behavioral political economy: A survey
+2024-08-28 19:06:26.412 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Physician incentives in health maintenance organizations
+2024-08-28 19:06:26.735 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Self-control at work
+2024-08-28 19:06:27.333 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Wage rigidity in a competitive incomplete contract market
+2024-08-28 19:06:27.626 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The old lady visits your backyard: A tale of morals and markets
+2024-08-28 19:06:27.930 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The Effect of Incentives in Nonroutine Analytical Team Tasks
+2024-08-28 19:06:28.517 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for What do employee referral programs do? Measuring the direct and overall effects of a management practice
+2024-08-28 19:06:31.641 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Experimental tests of rational inattention
+2024-08-28 19:06:31.927 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Caring or pretending to care? social impact, firms' objectives, and welfare
+2024-08-28 19:06:33.078 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Willpower and personal rules
+2024-08-28 19:06:33.391 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentive contracts versus trust in three-person ultimatum games: an experimental study
+2024-08-28 19:06:34.408 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Wage Rigidity in a Competitive lncomplete
+2024-08-28 19:06:34.861 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Efficiency and justice revisited
+2024-08-28 19:06:35.153 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Behavioral economics of corruption and its implications
+2024-08-28 19:06:37.440 | INFO     | src.scholar:search_google_scholar:133 - Found 20 results for journal Journal of Political Economy
+2024-08-28 19:06:37.442 | INFO     | __main__:main:20 - Processing journal Journal of Economic Literature, American Economic Association
+2024-08-28 19:06:39.575 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Economic incentives and social preferences: substitutes or complements?
+2024-08-28 19:06:41.403 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Interdependent preferences and reciprocity
+2024-08-28 19:06:42.793 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Endogenous preferences: The cultural consequences of markets and other economic institutions
+2024-08-28 19:06:43.594 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Economic perspectives on corporate social responsibility
+2024-08-28 19:06:45.037 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Behavioral contract theory
+2024-08-28 19:06:46.421 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The devil is in the details: Implications of Samuel Bowles's The Moral Economy for economics and policy research
+2024-08-28 19:06:47.813 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Tax compliance and enforcement
+2024-08-28 19:06:48.740 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Why organizations fail: Models and cases
+2024-08-28 19:06:51.238 | INFO     | src.scholar:search_google_scholar:133 - Found 11 results for journal Journal of Economic Literature
+2024-08-28 19:06:51.239 | INFO     | __main__:main:20 - Processing journal Journal of Financial Economics, Elsevier
+2024-08-28 19:06:53.920 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for CEO compensation: Evidence from the field
+2024-08-28 19:06:54.483 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Motivating collusion
+2024-08-28 19:06:58.117 | INFO     | src.scholar:search_google_scholar:133 - Found 3 results for journal Journal of Financial Economics
+2024-08-28 19:06:58.120 | INFO     | __main__:main:20 - Processing journal Journal of Economic Growth, Springer
+2024-08-28 19:07:00.781 | INFO     | src.scholar:search_google_scholar:133 - Found 0 results for journal Journal of Economic Growth
+2024-08-28 19:07:00.782 | INFO     | __main__:main:20 - Processing journal Journal of Economic Perspectives, American Economic Association
+2024-08-28 19:07:02.719 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Nonmonetary incentives and the implications of work as a source of meaning
+2024-08-28 19:07:03.155 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for When and why incentives (don't) work to modify behavior
+2024-08-28 19:07:03.587 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Compensation and incentives in the workplace
+2024-08-28 19:07:03.883 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Field experiments with firms
+2024-08-28 19:07:04.194 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for What Policies Increase Prosocial Behavior? An Experiment with Referees at the Journal of Public Economics
+2024-08-28 19:07:04.519 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Paying respect
+2024-08-28 19:07:04.890 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Identity and the Economics of Organizations
+2024-08-28 19:07:05.254 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Personnel economics: The economist's view of human resources
+2024-08-28 19:07:05.551 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Cheating ourselves: The economics of tax evasion
+2024-08-28 19:07:05.911 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Bonus payment and employee output in cement manufacturing companies in south-south, Nigeria
+2024-08-28 19:07:10.300 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Reclaiming virtue ethics for economics
+2024-08-28 19:07:10.669 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Determinants of sales force performance in mobile phone service providers
+2024-08-28 19:07:12.530 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Market reasoning as moral reasoning: why economists should re-engage with political philosophy
+2024-08-28 19:07:12.828 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for For love or money—or both?
+2024-08-28 19:07:13.138 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Addressing absence
+2024-08-28 19:07:13.428 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Producing organ donors
+2024-08-28 19:07:13.721 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Labor economics and the psychology of organizations
+2024-08-28 19:07:14.116 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Factors affecting career choice among undergraduate students in Univeritas Indonesia
+2024-08-28 19:07:15.677 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for For Love or Money-Or Both?
+2024-08-28 19:07:26.469 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The implications of grading policies for student course choice
+2024-08-28 19:07:26.909 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The tenuous attachments of working-class men
+2024-08-28 19:07:27.211 | INFO     | src.scholar:search_google_scholar:133 - Found 22 results for journal Journal of Economic Perspectives
+2024-08-28 19:07:27.212 | INFO     | __main__:main:20 - Processing journal Journal of Finance, American Finance Association
+2024-08-28 19:07:28.982 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The impact of awards on intrinsic motivation and job satisfaction of multi-level marketing members in riau islands province, Indonesia
+2024-08-28 19:07:29.596 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Compensation and incentives: Practice vs. theory
+2024-08-28 19:07:30.746 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Effect of compensation strategy on corporate performance: Evidence from Nigerian firms
+2024-08-28 19:07:31.096 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Evaluating stock trading behaviour: Information sources nexus through intrinsic and extrinsic motivation
+2024-08-28 19:07:31.940 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Performance based compensation and firm value of commercial banks in Nigeria
+2024-08-28 19:07:32.251 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Crowdfunding tax incentives in Europe: a comparative analysis
+2024-08-28 19:07:32.550 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Factors that affect students' career choice in accounting: A case of Bahir Dar University students
+2024-08-28 19:07:34.563 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Antecedents of Salesforce Motivation: A Review of Studies
+2024-08-28 19:07:36.850 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Analysis of teachers' motivation on the overall performance of public basic school in the Wa Municipality
+2024-08-28 19:07:37.282 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Effect of Motivation, Leadership and Organizational Culture on Employee Performance during the COVID-19 Pandemic
+2024-08-28 19:07:38.467 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Publication Process Date
+2024-08-28 19:07:39.106 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Motivation as a management tool for health workers' productivity in Nigeria
+2024-08-28 19:07:39.537 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Board Inclusion in Financial Reporting and Dividend Policy: Evidence from Static and Dynamic Panel VAR Models
+2024-08-28 19:07:40.771 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The use of performance information by local government stakeholders in Tanzania
+2024-08-28 19:07:41.208 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Effect of Human Resources Practice and Organizational Commitment on Accountability of Rural Entity
+2024-08-28 19:07:41.689 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Determination the Impact Professional Skepticism and Interpersonal Trust, with Considering the of Organizational Behavior Characteristics on Auditors Job Durability
+2024-08-28 19:07:42.271 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Cryptocurrencies: A survey on acceptance, governance and market dynamics
+2024-08-28 19:07:42.572 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The effect of workplace safety on the performance of Enugu state electricity distribution company
+2024-08-28 19:07:45.358 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Factors affecting adoption of internet banking: A study of Jammu and Kashmir with special reference to J & K Bank
+2024-08-28 19:07:45.757 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Equity valuation approach based on accounting variables
+2024-08-28 19:07:46.165 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Perceived benefit analysis of sales promotion: a case of consumer durables
+2024-08-28 19:07:46.489 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Human resources-change agents for motivating and retaining Employees
+2024-08-28 19:07:46.903 | INFO     | src.scholar:search_google_scholar:133 - Found 24 results for journal Journal of Finance
+2024-08-28 19:07:46.904 | INFO     | __main__:main:20 - Processing journal Review of Economic Studies, Oxford University Press
+2024-08-28 19:07:48.758 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Intrinsic and extrinsic motivation
+2024-08-28 19:07:49.643 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives for unaware agents
+2024-08-28 19:07:50.695 | INFO     | src.scholar:search_google_scholar:133 - Found 2 results for journal Review of Economic Studies
+2024-08-28 19:07:50.697 | INFO     | __main__:main:20 - Processing journal Review of Financial Studies, Society for Financial Studies
+2024-08-28 19:07:52.899 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Decentralizing money: Bitcoin prices and blockchain security
+2024-08-28 19:07:53.447 | INFO     | src.scholar:search_google_scholar:133 - Found 1 results for journal Review of Financial Studies
+2024-08-28 19:07:53.450 | INFO     | __main__:main:20 - Processing journal Journal of Monetary Economics, Elsevier
+2024-08-28 19:07:55.013 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Morale hazard
+2024-08-28 19:07:57.059 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Could making banks hold only liquid assets induce bank runs?
+2024-08-28 19:07:57.462 | INFO     | src.scholar:search_google_scholar:133 - Found 2 results for journal Journal of Monetary Economics
+2024-08-28 19:07:57.463 | INFO     | __main__:main:20 - Processing journal The Review of Economics and Statistics, MIT Press
+2024-08-28 19:07:58.784 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives to learn
+2024-08-28 19:08:00.744 | INFO     | src.scholar:search_google_scholar:133 - Found 1 results for journal The Review of Economics and Statistics
+2024-08-28 19:08:00.747 | INFO     | __main__:main:20 - Processing journal Journal of Econometrics, Elsevier
+2024-08-28 19:08:02.531 | INFO     | src.scholar:search_google_scholar:133 - Found 0 results for journal Journal of Econometrics
+2024-08-28 19:08:02.532 | INFO     | __main__:main:20 - Processing journal American Economic Journal: Macroeconomics, American Economic Association
+2024-08-28 19:08:04.151 | INFO     | src.scholar:search_google_scholar:133 - Found 0 results for journal American Economic Journal: Macroeconomics
+2024-08-28 19:08:04.151 | INFO     | __main__:main:20 - Processing journal Renewable and Sustainable Energy Reviews, Elsevier
+2024-08-28 19:08:05.956 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Crowdfunding for renewable and sustainable energy projects: An exploratory case study approach
+2024-08-28 19:08:11.664 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Household energy use: Applying behavioural economics to understand consumer decision-making and behaviour
+2024-08-28 19:08:12.273 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Green building incentives: A review
+2024-08-28 19:08:15.805 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Assessing the socio-demographic, technical, economic and behavioral factors of Nordic electric vehicle adoption and the influence of vehicle-to-grid preferences
+2024-08-28 19:08:19.326 | INFO     | src.scholar:search_google_scholar:133 - Found 12 results for journal Renewable and Sustainable Energy Reviews
+2024-08-28 19:08:19.329 | INFO     | __main__:main:20 - Processing journal Journal of Labor Economics, University of Chicago Press
+2024-08-28 19:08:20.957 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Altruism or money? Reducing teacher sorting using behavioral strategies in Peru
+2024-08-28 19:08:23.036 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The Efficacy of Tournaments for Nonroutine Team Tasks
+2024-08-28 19:08:23.339 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Happiness and productivity
+2024-08-28 19:08:23.890 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Attribution and reciprocity in an experimental labor market
+2024-08-28 19:08:24.452 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for When is social responsibility socially desirable?
+2024-08-28 19:08:25.670 | INFO     | src.scholar:search_google_scholar:133 - Found 8 results for journal Journal of Labor Economics
+2024-08-28 19:08:25.672 | INFO     | __main__:main:20 - Processing journal Journal of the European Economic Association, European Economic Association
+2024-08-28 19:08:27.613 | INFO     | src.scholar:search_google_scholar:133 - Found 1 results for journal Journal of the European Economic Association
+2024-08-28 19:08:27.614 | INFO     | __main__:main:20 - Processing journal Journal of International Economics, Elsevier
+2024-08-28 19:08:29.182 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for High-performance work system based on the AMO model, knowledge sharing, and employee performance in Vietnam's private firms
+2024-08-28 19:08:31.816 | INFO     | src.scholar:search_google_scholar:133 - Found 1 results for journal Journal of International Economics
+2024-08-28 19:08:31.818 | INFO     | __main__:main:20 - Processing journal American Economic Journal: Applied Economics, American Economic Association
+2024-08-28 19:08:33.831 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Long-run effects of temporary incentives on medical care productivity
+2024-08-28 19:08:35.103 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Long-Term Effects of Temporary Incentives on Productivity in Medical Care Clinics
+2024-08-28 19:08:35.225 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Medium-and long-term educational consequences of alternative conditional cash transfer designs: Experimental evidence from Colombia
+2024-08-28 19:08:35.897 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Reducing child mortality in the last mile: experimental evidence on community health promoters in Uganda
+2024-08-28 19:08:37.025 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentivizing safer sexual behavior: evidence from a lottery experiment on HIV prevention
+2024-08-28 19:08:38.074 | INFO     | src.scholar:search_google_scholar:133 - Found 6 results for journal American Economic Journal: Applied Economics
+2024-08-28 19:08:38.076 | INFO     | __main__:main:20 - Processing journal Economic Policy, CEPR;CES;MSH
+2024-08-28 19:08:40.859 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Extrinsic and intrinsic motivations for tax compliance: Evidence from a field experiment in Germany
+2024-08-28 19:08:42.405 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Moral suasion and economic incentives: Field experimental evidence from energy demand
+2024-08-28 19:08:43.586 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The behavioralist goes to school: Leveraging behavioral economics to improve educational performance
+2024-08-28 19:08:44.739 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Payment choice, image motivation and contributions to charity: evidence from a field experiment
+2024-08-28 19:08:45.913 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Will there be blood? Incentives and displacement effects in pro-social behavior
+2024-08-28 19:08:46.563 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The importance of intrinsic and exrinsic motivation for measuring IQ
+2024-08-28 19:08:47.524 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Revised version published in American Economic Journal: Economic Policy, 2018, 10 (1)
+2024-08-28 19:08:49.248 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Can small incentives have large effects? The impact of taxes versus bonuses on disposable bag use
+2024-08-28 19:08:51.448 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Employees' reaction to gender pay transparency: an online experiment
+2024-08-28 19:08:51.998 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Impact of culture on work motivation: Case of Bosnia and Herzegovina
+2024-08-28 19:08:54.746 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for PERFORMANCE MANAGEMENT OF ACADEMIC STAFF ON THE EXAMPLE OF THE FACULTIES OF ECONOMICS IN UNIVERSITY OF TARTU AND IN …
+2024-08-28 19:08:57.418 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Organisational form and individual motivation: public ownership, privatisation and fat cats
+2024-08-28 19:08:58.100 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Performance Management of Academic Staff on the Example of the Faculties of Economics in University of Tartu and in Tallinn University of Technology
+2024-08-28 19:08:58.858 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Guide to reform of higher education: a European perspective
+2024-08-28 19:08:59.288 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Using Technology to Promote Participation in Emerging Democracies: VIP: Voice and the 2014 South African Election
+2024-08-28 19:08:59.750 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Asymmetric incentives in subsidies: Evidence from a large-scale electricity rebate program
+2024-08-28 19:09:00.872 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Public policy for a knowledge economy
+2024-08-28 19:09:03.832 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Tax simplification and tax compliance: An economic perspective
+2024-08-28 19:09:04.691 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Implicit preferences
+2024-08-28 19:09:05.398 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Emerging and near future challenges of higher education in East Asia
+2024-08-28 19:09:05.714 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Knowledge in the modern economy
+2024-08-28 19:09:06.705 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for A quality policy for America
+2024-08-28 19:09:08.980 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The dynamics of family systems: lessons from past and present times
+2024-08-28 19:09:09.512 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Culture, Institutions, and Equilibria: A Framework
+2024-08-28 19:09:09.943 | INFO     | src.scholar:search_google_scholar:133 - Found 28 results for journal Economic Policy
+2024-08-28 19:09:09.945 | INFO     | __main__:main:20 - Processing journal RAND Journal of Economics, RAND Corporation
+2024-08-28 19:09:12.481 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Subjective evaluations with performance feedback
+2024-08-28 19:09:13.053 | INFO     | src.scholar:search_google_scholar:133 - Found 3 results for journal RAND Journal of Economics
+2024-08-28 19:09:13.055 | INFO     | __main__:main:20 - Processing journal Economic Journal, Royal Economic Society
+2024-08-28 19:09:14.998 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Extrinsic and intrinsic motivations for tax compliance: Evidence from a field experiment in Germany
+2024-08-28 19:09:16.649 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Payment choice, image motivation and contributions to charity: evidence from a field experiment
+2024-08-28 19:09:17.623 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Intermediation reduces punishment (and reward)
+2024-08-28 19:09:18.663 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The behavioralist goes to school: Leveraging behavioral economics to improve educational performance
+2024-08-28 19:09:19.946 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Moral suasion and economic incentives: Field experimental evidence from energy demand
+2024-08-28 19:09:21.356 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Will there be blood? Incentives and displacement effects in pro-social behavior
+2024-08-28 19:09:21.946 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Long-run effects of temporary incentives on medical care productivity
+2024-08-28 19:09:23.107 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The impact of monetary and non-monetary factors of motivation on employee productivity
+2024-08-28 19:09:23.979 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Why people vote: Ethical motives and social incentives
+2024-08-28 19:09:27.765 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Can small incentives have large effects? The impact of taxes versus bonuses on disposable bag use
+2024-08-28 19:09:29.395 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Who Has the Time? Community College Students' Time-Use Response to Financial Incentives
+2024-08-28 19:09:30.010 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Long-Term Effects of Temporary Incentives on Productivity in Medical Care Clinics
+2024-08-28 19:09:30.076 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Revised version published in American Economic Journal: Economic Policy, 2018, 10 (1)
+2024-08-28 19:09:32.540 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Abraham Maslow's Hierarchy of Needs and Frederick Herzberg's Two-Factor Motivation Theories: Implications for Organizational Performance
+2024-08-28 19:09:32.826 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for A constitution for knaves crowds out civic virtues
+2024-08-28 19:09:33.284 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Asymmetric incentives in subsidies: Evidence from a large-scale electricity rebate program
+2024-08-28 19:09:36.340 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Motivators and Demotivators for Employees
+2024-08-28 19:09:36.985 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Indenture as a Self‐Enforced Contract Device: An Experimental Test
+2024-08-28 19:09:37.573 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for How to create an engagement-friendly environment in reward-based crowdfunding?
+2024-08-28 19:09:38.146 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Medium-and long-term educational consequences of alternative conditional cash transfer designs: Experimental evidence from Colombia
+2024-08-28 19:09:38.881 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The effects of individual internal versus external reference prices on consumer decisions for pay-what-you-want payments
+2024-08-28 19:09:39.381 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Warm‐glow Giving and Freedom to be Selfish
+2024-08-28 19:09:39.812 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Reducing child mortality in the last mile: experimental evidence on community health promoters in Uganda
+2024-08-28 19:09:40.668 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Preheating prosocial behaviour
+2024-08-28 19:09:43.970 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Screening for managerial objectives
+2024-08-28 19:09:46.644 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Competition, cooperation and collective choice
+2024-08-28 19:09:47.716 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentivizing safer sexual behavior: evidence from a lottery experiment on HIV prevention
+2024-08-28 19:09:48.757 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Heavy work investment from the perspective of cultural factors and outcomes by types of investors
+2024-08-28 19:09:49.463 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Trust and State Effectiveness: The Political Economy of Compliance
+2024-08-28 19:09:50.001 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Entrepreneurs' Personnel Characteristics and Their Impact on the Growth of SMEs.
+2024-08-28 19:09:51.012 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentive reversal
+2024-08-28 19:09:51.822 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Herding cats? Management and university performance
+2024-08-28 19:09:52.152 | INFO     | src.scholar:search_google_scholar:133 - Found 37 results for journal Economic Journal
+2024-08-28 19:09:52.155 | INFO     | __main__:main:20 - Processing journal Annual Review of Economics, Annual Reviews
+2024-08-28 19:09:54.377 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Prosocial motivation and incentives
+2024-08-28 19:09:55.019 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Taking state-capacity research to the field: Insights from collaborations with tax authorities
+2024-08-28 19:09:55.791 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Social image and economic behavior in the field: Identifying, understanding, and shaping social pressure
+2024-08-28 19:09:56.531 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The portfolio of economic policies needed to fight climate change
+2024-08-28 19:09:56.851 | INFO     | src.scholar:search_google_scholar:133 - Found 4 results for journal Annual Review of Economics
+2024-08-28 19:09:56.854 | INFO     | __main__:main:20 - Processing journal Journal of Public Economics, Elsevier
+2024-08-28 19:09:58.835 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Do norms on contribution behavior affect intrinsic motivation? field-experimental evidence from germany
+2024-08-28 19:09:59.433 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for No margin, no mission? A field experiment on incentives for public service delivery
+2024-08-28 19:10:04.110 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Public good provision and property tax compliance: Evidence from a natural experiment
+2024-08-28 19:10:04.685 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Learning for a bonus: How financial incentives interact with preferences
+2024-08-28 19:10:05.416 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Loopholes undermine donation: An experiment motivated by an organ donation priority loophole in Israel
+2024-08-28 19:10:06.728 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for No excuses for good behavior: Volunteering and the social environment
+2024-08-28 19:10:07.827 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Mixed feelings: Theories of and evidence on giving
+2024-08-28 19:10:10.988 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The hedonistic paradox: Is homo economicus happier?
+2024-08-28 19:10:11.458 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Pay for politicians and candidate selection: An empirical analysis
+2024-08-28 19:10:12.023 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Anti-social behavior in profit and nonprofit organizations
+2024-08-28 19:10:12.717 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Competitive rivalry, social disposition, and subjective well-being: An experiment
+2024-08-28 19:10:13.974 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Encouraging classroom peer interactions: Evidence from Chinese migrant schools
+2024-08-28 19:10:16.086 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Punish in public
+2024-08-28 19:10:19.758 | INFO     | src.scholar:search_google_scholar:133 - Found 16 results for journal Journal of Public Economics
+2024-08-28 19:10:19.762 | INFO     | __main__:main:20 - Processing journal Journal of Development Economics, Elsevier
+2024-08-28 19:10:21.898 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Social and financial incentives for overcoming a collective action problem
+2024-08-28 19:10:22.433 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Motivating volunteer health workers in an african capital city
+2024-08-28 19:10:23.264 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Social ties at work and effort choice: Experimental evidence from Tanzania
+2024-08-28 19:10:23.763 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Household economic strengthening through financial and psychosocial programming: evidence from a field experiment in South Africa
+2024-08-28 19:10:24.526 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Data and policy decisions: Experimental evidence from Pakistan
+2024-08-28 19:10:26.005 | INFO     | src.scholar:search_google_scholar:133 - Found 7 results for journal Journal of Development Economics
+2024-08-28 19:10:26.007 | INFO     | __main__:main:20 - Processing journal Brookings Papers on Economic Activity, Economic Studies Program, The Brookings Institution
+2024-08-28 19:10:28.706 | INFO     | src.scholar:search_google_scholar:133 - Found 0 results for journal Brookings Papers on Economic Activity
+2024-08-28 19:10:28.707 | INFO     | __main__:main:20 - Processing journal Journal of Banking & Finance, Elsevier
+2024-08-28 19:10:30.468 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Incentives and culture in risk compliance
+2024-08-28 19:10:31.021 | INFO     | src.scholar:search_google_scholar:133 - Found 3 results for journal Journal of Banking & Finance
+2024-08-28 19:10:31.024 | INFO     | __main__:main:20 - Processing journal Energy Policy, Elsevier
+2024-08-28 19:10:33.114 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Assessing synergy of incentives and nudges in the energy policy mix
+2024-08-28 19:10:34.398 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for One for all?–The impact of different types of energy feedback and goal setting on individuals' motivation to conserve electricity
+2024-08-28 19:10:35.228 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Combining “carrot and stick” to incentivize sustainability in households
+2024-08-28 19:10:35.903 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Competition and norms: A self-defeating combination?
+2024-08-28 19:10:36.462 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for The influence of consumers' environmental beliefs and attitudes on energy saving behaviours
+2024-08-28 19:10:36.833 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Nudges in the marketplace: Using peer comparisons and incentives to reduce household electricity consumption
+2024-08-28 19:10:38.899 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Energy saving behaviours: Development of a practice-based model
+2024-08-28 19:11:25.125 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Can't buy me acceptance? Financial benefits for wind energy projects in Germany
+2024-08-28 19:11:25.934 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Are tenants willing to pay for energy efficiency? Evidence from a small-scale spatial analysis in Germany
+2024-08-28 19:11:26.986 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Farmers' motivations to cultivate biomass for energy and implications
+2024-08-28 19:11:27.486 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Impact of reform and privatisation on employees a case study of power sector reform in Orissa, India
+2024-08-28 19:11:27.902 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Modelling thermal insulation investment choice in the EU via a behaviourally informed agent-based model
+2024-08-28 19:11:28.475 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Empowering householders: Identifying predictors of intentions to use a home energy management system in the United Kingdom
+2024-08-28 19:11:29.888 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Understanding domestic consumer attitude and behaviour towards energy: A study on the Island of Ireland
+2024-08-28 19:11:30.432 | DEBUG    | src.scholar:search_google_scholar:89 - Downloading PDF for Timing-based business models for flexibility creation in the electric power sector
+2024-08-28 19:11:30.887 | INFO     | src.scholar:search_google_scholar:133 - Found 18 results for journal Energy Policy
+2024-08-28 19:11:30.897 | INFO     | __main__:main:20 - Processing journal Journal of Applied Econometrics, John Wiley & Sons, Ltd.
+2024-08-28 19:11:34.568 | INFO     | src.scholar:search_google_scholar:133 - Found 0 results for journal Journal of Applied Econometrics
+2024-08-28 19:11:34.570 | DEBUG    | src.file_handling:save_output:28 - Saving output file to /Users/jf41513/code/meta/incentives/literature_search/output/search.csv_20240828-191134.csv
+2024-08-28 19:11:34.581 | SUCCESS  | __main__:main:33 - Literature search completed
