@@ -2,7 +2,7 @@ import time
 import os
 from loguru import logger
 import pandas as pd
-from src import PATHS, STATIC
+from src import PATHS, STATIC, config
 
 
 def load_src_file() -> pd.DataFrame:
@@ -13,8 +13,8 @@ def load_src_file() -> pd.DataFrame:
     try:
         df = pd.read_excel(PATHS.SRC_FILE, sheet_name=STATIC.JOURNALS_SHEET)
         assert (
-            df.shape[0] == STATIC.JOURNAL_COUNT
-        ), f"Expected {STATIC.JOURNAL_COUNT} journals, found {df.shape[0]}"
+            df.shape[0] == config.JOURNAL_COUNT
+        ), f"Expected {config.JOURNAL_COUNT} journals, found {df.shape[0]}"
         return df
     except Exception as e:
         logger.error(f"Error loading source file: {e}")

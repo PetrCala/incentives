@@ -1,12 +1,9 @@
 import os
 from loguru import logger
 import pandas as pd
-from src import PATHS, STATIC
+from src import PATHS, STATIC, config
 from src.file_handling import load_src_file, save_output
 from src.scholar import search_google_scholar
-
-# Options
-SAVE_RESULTS_TO_PDF = True
 
 
 def main():
@@ -24,7 +21,7 @@ def main():
           journal_name=study["Search Keyword"], 
           query=STATIC.QUERY,
           idx = idx,
-          save_results_to_pdf=SAVE_RESULTS_TO_PDF
+          save_results_to_pdf=config.SAVE_RESULS_TO_PDF
         )
         merged_results = pd.concat([merged_results, search_results], ignore_index=True)
         idx += search_results.shape[0]
