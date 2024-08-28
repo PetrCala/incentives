@@ -1,0 +1,7 @@
+bachelor-thesis/*
+
+# Local files
+**/*.pdf
+**/*.DS_Store
+venv
+.venv
