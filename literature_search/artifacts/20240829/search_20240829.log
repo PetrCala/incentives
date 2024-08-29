@@ -1,3 +1,0 @@
-2024-08-29 17:23:50.712 | INFO     | scholar_wizard.search.index:search:31 - Running literature search
-2024-08-29 17:23:50.712 | INFO     | scholar_wizard.search.index:search:34 - Using the following search query: {query}
-2024-08-29 17:23:50.712 | DEBUG    | scholar_wizard.libs.file_handling:load_src_file:9 - Loading source file

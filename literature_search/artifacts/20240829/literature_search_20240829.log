@@ -1,0 +1,11 @@
+2024-08-29 18:02:45.199 | INFO     | scholar_wizard.search.index:search:93 - Starting literature search
+2024-08-29 18:02:45.201 | INFO     | scholar_wizard.search.index:search:100 - Processing journal American Economic Journal: Applied Economics (1/1)
+2024-08-29 18:02:47.390 | INFO     | scholar_wizard.search.utils:search_google_scholar:47 - Found 6 results
+2024-08-29 18:02:47.392 | DEBUG    | scholar_wizard.search.utils:search_google_scholar:100 - Downloading PDF for Long-run effects of temporary incentives on medical care productivity
+2024-08-29 18:02:48.566 | DEBUG    | scholar_wizard.search.utils:search_google_scholar:100 - Downloading PDF for Long-Term Effects of Temporary Incentives on Productivity in Medical Care Clinics
+2024-08-29 18:02:48.638 | DEBUG    | scholar_wizard.search.utils:search_google_scholar:100 - Downloading PDF for Medium-and long-term educational consequences of alternative conditional cash transfer designs: Experimental evidence from Colombia
+2024-08-29 18:02:49.375 | DEBUG    | scholar_wizard.search.utils:search_google_scholar:100 - Downloading PDF for Reducing child mortality in the last mile: experimental evidence on community health promoters in Uganda
+2024-08-29 18:02:49.988 | DEBUG    | scholar_wizard.search.utils:search_google_scholar:100 - Downloading PDF for Incentivizing safer sexual behavior: evidence from a lottery experiment on HIV prevention
+2024-08-29 18:02:51.054 | DEBUG    | scholar_wizard.libs.file_handling:save_output:19 - Saving output file to /Users/jf41513/code/meta/incentives/./literature_search/artifacts/20240829/search_20240829.csv
+2024-08-29 18:02:51.058 | DEBUG    | scholar_wizard.libs.utils:save_metadata:19 - Saving metadata
+2024-08-29 18:02:51.060 | SUCCESS  | scholar_wizard.search.index:search:120 - Literature search completed

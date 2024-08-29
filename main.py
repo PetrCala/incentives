@@ -2,12 +2,13 @@ import os
 import time
 import argparse
 from scholar_wizard import search
+from incentives import STATIC as INCENTIVES_STATIC
 
-QUERY = r'("financial rewards" OR “money” OR “financial incentives” OR "monetary incentives") AND  (“motivation” OR “performance”) effect affect experiment intrinsic extrinsic reward'
+
 ARTIFACTS_DIR = os.path.join(
     os.path.dirname(__file__), "literature_search", "artifacts"
 )
-OUTPUT_DIR = os.path.join(ARTIFACTS_DIR, time.strftime("%Y%m%d"))
+OUTPUT_DIR = os.path.join(ARTIFACTS_DIR, time.strftime(INCENTIVES_STATIC.DATE_FORMAT))
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
@@ -26,7 +27,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.search:
-        search(query=QUERY, output_path=OUTPUT_DIR, journals=None, use_proxy=False)
+        search(
+            query=INCENTIVES_STATIC.QUERY,
+            output_path=OUTPUT_DIR,
+            journals=INCENTIVES_STATIC.TOP25_JOURNALS,
+            use_proxy=False,
+        )
     elif args.snowball:
         print("Snowballing not implemented yet")
         pass
