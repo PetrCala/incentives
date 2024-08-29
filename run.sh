@@ -20,11 +20,11 @@ fi
 case "$1" in
 search)
   shift
-  python literature_search/main.py --search
+  python ./main.py --search
   ;;
 snowball)
   shift
-  python literature_search/main.py --snowball
+  python ./main.py --snowball
   ;;
 help)
   show_help
