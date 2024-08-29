@@ -22,7 +22,7 @@ def main():
     logger.info("Starting literature search")
 
     for i, study in df.iterrows():
-        logger.info(f"Processing journal {study["Journal"]}")
+        logger.info(f"Processing journal {study["Journal"]} ({i+1}/{config.JOURNAL_COUNT})")
         search_results: pd.DataFrame = search_google_scholar(
           journal_name=study["Search Keyword"], 
           query=STATIC.QUERY,
