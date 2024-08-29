@@ -4,7 +4,7 @@ from loguru import logger
 import pandas as pd
 from src import PATHS, STATIC, config
 from src.file_handling import load_src_file, save_output
-from src.scholar import search_google_scholar
+from src.scholar import search_google_scholar, use_proxy
 from src.utils import save_metadata
 
 # Clear the literature search log file upon each script execution
@@ -18,6 +18,8 @@ def main():
     df = load_src_file()
     merged_results = pd.DataFrame()
     idx = 0
+
+    use_proxy()
 
     logger.info("Starting literature search")
 

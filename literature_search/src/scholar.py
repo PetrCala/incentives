@@ -3,8 +3,10 @@ import time
 import requests
 from loguru import logger
 import pandas as pd
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 from src import PATHS
+
+scholarly.
 
 
 def search_google_scholar(
@@ -132,3 +134,11 @@ def search_google_scholar(
     )
 
     return df
+
+
+def use_proxy() -> None:
+    """Use a proxy generator to avoid Google Scholar blocking."""
+    logger.debug("Using proxy generator to avoid Google Scholar blocking...")
+    pg = ProxyGenerator()
+    pg.FreeProxies()
+    scholarly.use_proxy(pg)
