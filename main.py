@@ -1,7 +1,7 @@
 import os
 import time
 import argparse
-from scholar_wizard import search
+import scholar_wizard as sw
 from incentives import STATIC as INCENTIVES_STATIC
 
 
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.search:
-        search(
+        sw.search(
             query=INCENTIVES_STATIC.QUERY,
             output_path=OUTPUT_DIR,
             journals=INCENTIVES_STATIC.TOP25_JOURNALS,
