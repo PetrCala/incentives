@@ -54,6 +54,7 @@ def search_google_scholar(
         os.makedirs(journal_output_dir)
 
     for index, result in enumerate(search_results):
+        breakpoint()
         # Extract the necessary details
         title = result["bib"]["title"]
         authors = result["bib"]["author"]

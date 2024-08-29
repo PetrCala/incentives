@@ -19,7 +19,8 @@ def main():
     merged_results = pd.DataFrame()
     idx = 0
 
-    use_proxy()
+    if config.USE_PROXY:
+        use_proxy()
 
     logger.info("Starting literature search")
 
