@@ -1,0 +1,5 @@
+- Search by se dal projet nad Broeadurovýma vypickovanýma top 25 ekon. žurnálama pro reliability
+- Old data set v podstatě nechat tak, přidat jen dvě proměnné pro BMA (jen nad starýma datama)
+- Ze searche vybrat pouze nové studie, ty zahrnout if possible. Označit na kategorii těch, které jsou úplně nové, a těch, které se nevybraly při bakalářském searchi (tyhle můžou být troublesome). Ze všech pak posbírat all PCC-related data, NE BMA.
+- Přidají se pak snowballing, WP studie.
+- Nad novým data setem se projete PB analýza, zároveň se všechny PCC budou dát proměnit na cohenovo d. To, co už bude cohenovo d by default, zůstane as is.
