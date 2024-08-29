@@ -6,8 +6,6 @@ import pandas as pd
 from scholarly import scholarly, ProxyGenerator
 from src import PATHS
 
-scholarly.
-
 
 def search_google_scholar(
     journal_name: str,
