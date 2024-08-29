@@ -42,9 +42,8 @@ def search_google_scholar(
     search_query = f'source:" {journal_name}" {query}'
 
     # Search Google Scholar
-    logger.info(f"Searching Google Scholar using query: {search_query}")
     search_results = scholarly.search_pubs(search_query)
-    logger.info(f"Found {df.shape[0]} results for journal {journal_name}")
+    logger.info(f"Found {search_results.total_results} results")
 
     results = []
     pdf_count = 0
