@@ -1003,6 +1003,25 @@ socks = ["PySocks (>=1.5.6,!=1.5.7)"]
 use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
+name = "scholar-wizard"
+version = "0.1.0"
+description = "Facilitate searching the Google Scholar database"
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.dependencies]
+loguru = "^0.7.2"
+openpyxl = "^3.1.5"
+pandas = "^2.2.2"
+scholarly = "^1.7.11"
+
+[package.source]
+type = "directory"
+url = "scholar-wizard"
+
+[[package]]
 name = "scholarly"
 version = "1.7.11"
 description = "Simple access to Google Scholar authors and citations"
@@ -1478,4 +1497,4 @@ h11 = ">=0.9.0,<1"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "ac80d0049e124cf69240225f9c82dc1defbab8944d6c7224d559e97a0b2c0a37"
+content-hash = "e24058e1fd3d7392e610f12e2c7d21eeb067a7f72633232d93799ded71fd38e8"
