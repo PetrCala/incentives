@@ -6,6 +6,7 @@ show_help() {
   echo
   echo "Commands:"
   echo "  search          Search the top 30 economic journals for relevant articles"
+  echo "  snowball        Snowball the search results to find more relevant articles"
   echo "  help            Display this help message"
 }
 
@@ -19,7 +20,11 @@ fi
 case "$1" in
 search)
   shift
-  python literature_search/search.py "$@"
+  python literature_search/main.py --search
+  ;;
+snowball)
+  shift
+  python literature_search/main.py --snowball
   ;;
 help)
   show_help
